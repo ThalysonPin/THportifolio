@@ -3952,11 +3952,11 @@ vec3 mod289(vec3 x){return x-floor(x*(1.0/289.0))*289.0;}vec4 mod289(vec4 x){ret
       transform: translateY(20px);
     }
   }
-`,aj=()=>ye.jsxs(ZX,{id:"hero",children:[ye.jsx(sH,{}),ye.jsxs(KX,{children:[ye.jsxs(QX,{children:[ye.jsx(JX,{children:"Fullstack, Design & Marketing"}),ye.jsxs(ej,{children:[ye.jsx(tj,{src:"../img/line.png"}),ye.jsx(nj,{children:"Olá Mundo! Eu sou Thalyson"})]}),ye.jsx(ij,{children:"Um programador Fullstack com noções e experiência profissional na área de Design e Marketing Digital."}),ye.jsx(rj,{href:"#who",children:"Saiba Mais"})]}),ye.jsxs(sj,{children:[ye.jsx(qX,{}),ye.jsx(oj,{src:"../img/moon.png"})]})]})]}),lj=tt.div`
+`,aj=()=>ye.jsxs(ZX,{id:"hero",children:[ye.jsx(sH,{}),ye.jsxs(KX,{children:[ye.jsxs(QX,{children:[ye.jsx(JX,{children:"Fullstack, Design & Marketing"}),ye.jsxs(ej,{children:[ye.jsx(tj,{src:"./img/line.png"}),ye.jsx(nj,{children:"Olá Mundo! Eu sou Thalyson"})]}),ye.jsx(ij,{children:"Um programador Fullstack com noções e experiência profissional na área de Design e Marketing Digital."}),ye.jsx(rj,{href:"#who",children:"Saiba Mais"})]}),ye.jsxs(sj,{children:[ye.jsx(qX,{}),ye.jsx(oj,{src:"./img/moon.png"})]})]})]}),lj=tt.div`
     height: 100%;
     width: 100%;
     // scroll-snap-align: center;
-`,uj=()=>{const t=ce.useRef(),e=new ED().load("../img/react-logo2.png");return ye.jsx(lj,{children:ye.jsx(aO,{children:ye.jsxs("mesh",{ref:t,children:[ye.jsx(lO,{enableZoom:!1,autoRotate:!0}),ye.jsx("ambientLight",{intensity:1}),ye.jsx("directionalLight",{position:[3,2,1]}),ye.jsx("boxGeometry",{args:[2,2,2]}),ye.jsx("meshStandardMaterial",{map:e})]})})})},cj=tt.div`
+`,uj=()=>{const t=ce.useRef(),e=new ED().load("./img/react-logo2.png");return ye.jsx(lj,{children:ye.jsx(aO,{children:ye.jsxs("mesh",{ref:t,children:[ye.jsx(lO,{enableZoom:!1,autoRotate:!0}),ye.jsx("ambientLight",{intensity:1}),ye.jsx("directionalLight",{position:[3,2,1]}),ye.jsx("boxGeometry",{args:[2,2,2]}),ye.jsx("meshStandardMaterial",{map:e})]})})})},cj=tt.div`
   height: 100vh;
   scroll-snap-align: center;
   display: flex;
@@ -4025,7 +4025,7 @@ vec3 mod289(vec3 x){return x-floor(x*(1.0/289.0))*289.0;}vec4 mod289(vec4 x){ret
     align-items:center;
     text-align:center;
 }
-`,xj=()=>ye.jsx(cj,{id:"who",children:ye.jsxs(fj,{children:[ye.jsx(hj,{children:ye.jsx(uj,{})}),ye.jsxs(_j,{children:[ye.jsx(dj,{children:"Pensando fora da caixa"}),ye.jsxs(pj,{children:[ye.jsx(mj,{src:"../img/line.png"}),ye.jsx(gj,{children:"Quem sou eu"})]}),ye.jsx(vj,{children:"Desde 2018 me aventuro no mundo digital com negócios próprios, freelances e muito mais. Nessa aventura tive a oportunidade de trabalhar com E-commerce, Social Media, Gestão de tráfego, Desenvolvemento Web, Web Design e Chatbots."}),ye.jsx(yj,{href:"#works",children:"Veja Alguns Projetos"})]})]})}),Sj=tt.img`
+`,xj=()=>ye.jsx(cj,{id:"who",children:ye.jsxs(fj,{children:[ye.jsx(hj,{children:ye.jsx(uj,{})}),ye.jsxs(_j,{children:[ye.jsx(dj,{children:"Pensando fora da caixa"}),ye.jsxs(pj,{children:[ye.jsx(mj,{src:"./img/line.png"}),ye.jsx(gj,{children:"Quem sou eu"})]}),ye.jsx(vj,{children:"Desde 2018 me aventuro no mundo digital com negócios próprios, freelances e muito mais. Nessa aventura tive a oportunidade de trabalhar com E-commerce, Social Media, Gestão de tráfego, Desenvolvemento Web, Web Design e Chatbots."}),ye.jsx(yj,{href:"#works",children:"Veja Alguns Projetos"})]})]})}),Sj=tt.img`
   position: center;
   cursor: pointer;
   // background: black;
