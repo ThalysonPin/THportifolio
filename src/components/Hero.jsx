@@ -46,7 +46,7 @@ const Left = styled.div`
 `
 
 const Title = styled.h1`
-  font-size: 74px;
+  font-size: 68px;
 
   @media only screen and (max-width: 768px){
     text-align: center;
@@ -151,7 +151,7 @@ export const Hero = () => {
           <Left>
             <Title>Fullstack, Design & Marketing</Title>
             <WhatWeDo>
-              <Line src="../img/line.png"/>
+              <Line src="./img/line.png"/>
               <Subtitle>Olá Mundo! Eu sou Thalyson</Subtitle>
             </WhatWeDo>
             <Desc>Um programador Fullstack com noções e experiência profissional na área de Design e Marketing Digital.</Desc>
@@ -161,7 +161,7 @@ export const Hero = () => {
           <Right>
             {/* 3D model  */}
             <Hero3D/>
-            <Img src="../img/moon.png"/>
+            <Img src="./img/moon.png"/>
           </Right>
         </Container>
     </Section>

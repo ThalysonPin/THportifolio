@@ -101,7 +101,7 @@ export const Navbar = () => {
                 </Logo>
                 <List>
                     <ListItem href="#">Inicio</ListItem>
-                    <ListItem href="#who">Sobre mim</ListItem>
+                    <ListItem href="#who">Sobre Mim</ListItem>
                     <ListItem href="#works">Projetos</ListItem>
                 </List>
             </Links>

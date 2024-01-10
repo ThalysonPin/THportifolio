@@ -15,7 +15,7 @@ const Container = styled.div`
 export const Cube = () => {
     const mesh = useRef();
   
-    const texture = new TextureLoader().load('../img/react-logo2.png');
+    const texture = new TextureLoader().load('./img/react-logo2.png');
   return (
     <Container>
         <Canvas>

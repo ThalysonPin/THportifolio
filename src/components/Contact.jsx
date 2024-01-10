@@ -3,6 +3,7 @@ import Map from './Map'
 import emailjs from '@emailjs/browser';
 import React, { useRef, useState } from 'react'
 import { FaWhatsapp, FaLinkedin, FaGithub  } from "react-icons/fa";
+import { Hamster } from './Hamster';
 
 
 const Section = styled.div`
@@ -94,7 +95,9 @@ const Social = styled.div`
 
 const Right = styled.div`
   flex: 1;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
   @media only screen and (max-width: 768px){
     display:none;
   }
@@ -143,7 +146,7 @@ export const Contact = () => {
         </Left>
 
         <Right>
-          <Map/>
+          <Hamster/>
         </Right>
       </Container>
     </Section>

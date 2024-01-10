@@ -99,7 +99,7 @@ export const Who = () => {
           <Right>
             <Title>Pensando fora da caixa</Title>
             <WhatWeDo>
-              <Line src="../img/line.png"/>
+              <Line src="./img/line.png"/>
               <Subtitle>Quem sou eu</Subtitle>
             </WhatWeDo>
             <Desc>Desde 2018 me aventuro no mundo digital com negócios próprios, freelances e muito mais. Nessa aventura tive a oportunidade de trabalhar com E-commerce, Social Media, Gestão de tráfego, Desenvolvemento Web, Web Design e Chatbots.</Desc>
