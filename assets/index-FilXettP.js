@@ -4040,7 +4040,7 @@ vec3 mod289(vec3 x){return x-floor(x*(1.0/289.0))*289.0;}vec4 mod289(vec4 x){ret
   width: 100%;
   // background: black;
   display:flex;
-  justify-content: center;
+  // justify-content: center;
   align-items: center;
   flex-direction: column;
 `,MX=tt.p`
